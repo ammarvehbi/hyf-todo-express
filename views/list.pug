@@ -1,0 +1,9 @@
+html
+  head
+    title HYF Todos
+  body
+    h1 Todos
+    p There are #{todos.length} todos.
+    ul#todos
+      each todo in todos
+        li= todo.todo
